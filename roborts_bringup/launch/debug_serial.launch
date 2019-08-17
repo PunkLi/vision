@@ -1,0 +1,8 @@
+<launch>
+  <master auto="start"/>
+
+  <node pkg="roborts_serial" type="serial_node" name="serial" output="screen" respawn="true"/>
+
+  <node pkg="roborts_serial" type="fake_loop" name="fake_loop" output="screen" respawn="true"/>
+    
+</launch>

@@ -1,0 +1,27 @@
+<launch>
+  <master auto="start"/>
+  
+  <!--需要在 protocol.h 中 #define 英雄机器人 -->
+  <node pkg="roborts_serial" type="serial_node" name="serial" output="screen" respawn="true"/>
+  
+  <node pkg="roborts_vision" type="roborts_vision_node" name="hero_big" output="screen" respawn="true">
+    <!--云台参数-->
+    <param name="gimbal_type" type="string" value="big_gimbal_link"/>
+    <param name="gimbal_x"  type="double" value="0"/>
+    <param name="gimbal_y"  type="double" value="0"/>
+    <param name="gimbal_z"  type="double" value="15"/>
+    <!--相机参数-->
+    <param name="camera_type" type="string" value="mercure"/> 
+    <param name="camera_id" type="int" value="1"/>
+    <param name="resolution_width"  type="int" value="1600"/>
+    <param name="resolution_height" type="int" value="900"/>
+    <param name="video_path" type="string" value="../armor_20190714_191754.avi"/>  
+  </node>
+
+</launch>
+
+<!--
+<node pkg="roborts_serial" type="serial_node" name="serial" output="screen" respawn="true">
+    <param name="port_name" type="string" value="dev/robomaster"/> 
+  </node>
+-->

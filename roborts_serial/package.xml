@@ -1,0 +1,21 @@
+<package>
+    <name>roborts_serial</name>
+    <version>1.0.0</version>
+    <description>
+        Robomaster2019, IRobot Team, Xidian University.
+    </description>
+    <author>lichunpeng</author>
+    <maintainer email="lichunpeng@stu.xidian.edu.cn">lichunpeng</maintainer>
+    <license>MIT</license>
+
+    <buildtool_depend>catkin</buildtool_depend>
+
+    <build_depend>roscpp</build_depend>
+    <build_depend>tf</build_depend>
+    <build_depend>roborts_msgs</build_depend>
+
+    <run_depend>roscpp</run_depend>
+    <run_depend>tf</run_depend>
+    <run_depend>roborts_msgs</run_depend>
+
+</package>

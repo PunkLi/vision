@@ -1,0 +1,21 @@
+<package>
+    <name>roborts_bringup</name>
+    <version>1.0.0</version>
+    <description>
+        Robomaster2019, IRobot Team, Xidian University.
+    </description>
+    <author>lichunpeng</author>
+    <maintainer email="lichunpeng@stu.xidian.edu.cn">lichunpeng</maintainer>
+    <license>MIT</license>
+
+    <buildtool_depend>catkin</buildtool_depend>
+
+    <build_depend>roborts_base</build_depend>
+    <build_depend>serial</build_depend>
+    <build_depend>roborts_msgs</build_depend>
+
+    <run_depend>roborts_base</run_depend>
+    <run_depend>serial</run_depend>
+    <run_depend>roborts_msgs</run_depend>
+
+</package>

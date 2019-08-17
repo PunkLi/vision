@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<opencv_storage>
+
+  <offset_x>7.4</offset_x>   <!-- x+→: 单位: cm-->
+  <offset_y>3.0</offset_y>   <!-- y+↓ : 单位: cm-->
+  <offset_z>6.0</offset_z>   <!-- z+↓ : 单位: cm-->
+  
+  <z_scale>1</z_scale>
+  <min_distance>50</min_distance>
+  <max_distance>1000</max_distance>
+
+</opencv_storage>

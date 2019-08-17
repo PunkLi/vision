@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<opencv_storage>
+
+  <Maxarea>2500</Maxarea>
+  <Minarea>500</Minarea>
+  <Maxarea_l>6000</Maxarea_l><!--4000-->
+  <Minarea_l>2000</Minarea_l><!--2700-->
+  <enemy_color>1</enemy_color><!--0 is red,1 is blue-->
+  <img_idx>10000</img_idx>
+
+</opencv_storage>
